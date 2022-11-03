@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function-JS</title>
+</head>
+<body>
+    
+<h1 style="color: green; text-align:center">create a function with zero parameter having console statement </h1><br>
+<pre style="color: tomato; text-align:center">
+    function creat(){
+    console.log ("Richerts7");
+ }
+ creat(); 
+ </pre><br><br>
+
+
+<h1  style="color: green; text-align:center">create a function which take two value of parameter and print the su of 
+    them as "Sum of 3 , 4 is 7"</h1><br>
+<pre style="color: tomato; text-align:center">
+    function add(a,b){
+        let sum =(a+b);
+        console.log (sum);
+     }
+     add(3,4);
+</pre><br><br>
+<pre>
+
+<h1 style="color: green; text-align:center">Create one arrow function</h1><br>
+<pre style="color: tomato; text-align:center">
+let arrow = () => console.log('Hello');
+arrow();
+Print output:
+</pre> <br><br>
+
+<h1 style="color: red;">Que</h1>
+<pre style="color: green; text-align:center">
+    var x = 21;
+    var girl = function (){
+    console.log(x);
+    var x = 20;
+};
+girl()</pre><br>
+ <h3 style="color: tomato; text-align:center">output::undefined</h3><br><br>
+
+<h1 style="color: red;">Que-</h1>
+   <pre style="color: green; text-align:center">
+     var x = 21;
+     girl();
+     console.log(x);
+    function girl(){
+     console.log(x);
+      var x = 20;
+    };
+   </pre><br>
+<h3 style="color: tomato; text-align:center">output::undefined 21</h3><br><br>
+
+<h1 style="color: red;">Que-</h1>   
+ <pre style="color: green; text-align:center">
+    var x = 21;
+    a();
+    b();    
+      function a() {        
+       x = 20;
+      console.log(x);
+    };
+     function b() {
+        
+        x = 40;
+       console.log(x);
+    };
+ </pre><br><br>
+
+<h3  style="color: tomato; text-align:center">output:: 20,40</h3><br><br>
+
+
+<h1 style="color: green; text-align:center">write a function that except all parameter n and returns factorial of n </h1><br>
+<pre style="color: tomato; text-align:center">
+    function factorial(n) {
+        if (n == 0) return 1;
+        return n * factorial(n - 1);
+      }     
+      let num = 5;
+      document.write("Factorial of " + num + " is " + factorial(num));
+</pre><br>
+<h3 style="color: black; text-align: center;"> Output:: Factorial of 5 is 120</h3>
+
+</body>
+</html>
